@@ -7,11 +7,11 @@
 #   Character.create(name: 'Luke', movie: movies.first)
 
 
-Obermama = Restaurant.new(name: "Obermama", category: "italian", address: "75011 Paris")
+Obermama = Restaurant.create(name: "Obermama", category: "italian", address: "75011 Paris")
 
-bristol = Restaurant.new(name: "Epicure", category: "french", address: "75008 Paris")
+bristol = Restaurant.create(name: "Epicure", category: "french", address: "75008 Paris")
 
-Comy = Restaurant.new(name: "Co_my", category: "japanese", address: "75011 Paris")
-Popine = Restaurant.new(name: "Popine", category: "italian", address: "75011 Paris")
-Starvin = Restaurant.new(name: "Starvin_Joe", category: "belgian", address: "75011 Paris")
+Comy = Restaurant.create(name: "Co_my", category: "japanese", address: "75011 Paris")
+Popine = Restaurant.create(name: "Popine", category: "italian", address: "75011 Paris")
+Starvin = Restaurant.create(name: "Starvin_Joe", category: "belgian", address: "75011 Paris")
 
